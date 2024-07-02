@@ -1,0 +1,164 @@
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vw;
+}
+
+.header, .hook, .footer {
+    background-color: #1F2937;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.info, .quote_container, .action, .hook {
+    flex: 1;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 75px;
+    align-content: center;
+    padding: 16px 0;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    gap: 15px;
+}
+
+.hook, .services {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.hook {
+    gap: 220px;
+}
+
+.services {
+    align-content: center;
+}
+
+.first {
+    text-wrap: wrap;
+    width: 450px;
+    gap: 10px;
+}
+
+.button {
+    border: none;
+}
+
+.catch {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.catch, .logo, .footer {
+    color: #F9FAF8
+}
+
+.logo {
+    font-size: 24px;
+}
+
+a {
+    text-decoration-style: none;
+    color:#E5E7EB;
+}
+
+.description, a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.act, button {
+    background-color: #3882F6;
+    color:#F9FAF8;
+}
+
+button {
+    border: 2px solid #F9FAF8;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+
+.info {
+    align-content: center;
+}
+
+.info_header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+.services {
+    justify-content: center;
+}
+
+.job {
+    display: flex;
+    flex-wrap: wrap;
+    width: 210px;
+    height: 175px;
+    padding: 30px 20px;  
+}
+
+.job_img {
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.quote {
+    font-family: light italic;
+    text-align: center;
+}
+
+.author{
+    text-align: center;
+}
+
+.quote, .author {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote_container {
+    background-color: #E5E7EB;
+    align-content: center;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.act {
+    display: flex;
+    border-radius: 10px;
+    width: 650px;
+    padding: 15px 40px;
+}
+
+.call {
+    text-wrap: wrap;
+}
+
+.footer {
+    text-align: center;
+    align-content: center;
+    height: 50px;
+}
